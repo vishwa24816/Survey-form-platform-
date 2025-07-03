@@ -1,0 +1,10 @@
+# Ignore Node.js modules cache
+node_modules/
+
+# Ignore other common files
+npm-debug.log
+yarn-error.log
+.env
+*.env
+dist/
+build/
