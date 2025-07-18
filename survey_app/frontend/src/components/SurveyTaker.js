@@ -57,7 +57,6 @@ function SurveyTaker({ surveyId, onSubmissionSuccess }) { // Renamed prop for cl
     const handleSubmit = async (e) => {
         e.preventDefault();
         setSubmissionMessage(''); // Clear previous messages
-
         // Basic validation: Check if all questions have been answered
         // This is simple validation; more complex rules might be needed depending on question types
         const unansweredQuestions = survey.questions.filter((q, index) => {
